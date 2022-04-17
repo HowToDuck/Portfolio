@@ -1,0 +1,29 @@
+body {
+  /* width: 100vw;
+  height: 100vh;
+  margin: 0; */
+  background: black;
+}
+.hero-image {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  background: url(sample.jpg) no-repeat center;
+  background-attachment: fixed;
+  overflow: scroll;
+  /* background-size: cover; */
+  opacity: 0.5;
+}
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+ul {
+  background-color: black;
+}
+li {
+  color: white;
+}
