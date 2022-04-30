@@ -80,9 +80,48 @@
       <section id="about"><h2>About Page</h2></section>
       <section id="projects"><h2>Projects Page</h2></section>
       <section id="blog"><h2>Blog Page</h2></section>
-      <section id="contact"><h2>Contacts Page</h2></section>
+
+      <!-- --- Contact Information --- -->
+      <section id="contact">
+        <div class="container mt-5">
+          <form class="bg-light" style="padding: 30px" action="#" method="POST">
+            <h3>Contact Me</h3>
+            <label>Name</label>
+            <input type="text" name="name" class="form-control" required />
+            <label>Email address</label>
+            <input type="email" name="email" class="form-control" required />
+            <label>Message</label>
+            <textarea
+              class="form-control"
+              name="message"
+              rows="3"
+              required
+            ></textarea>
+            <button type="submit" class="btn btn-primary">Submit</button>
+            <h3>Or Contact Me At:</h3>
+            <h3 id="myEmail">htdev@hugo-tran.com</h3>
+          </form>
+        </div>
+      </section>
     </div>
 
     <!-- <div class="container"></div> -->
   </body>
+
+  <!-- --- Footer --- -->
+  <footer>
+    <div class="col">
+      <div class="socials">
+        <a href="https://github.com/HowToDuck"
+          ><i class="fa fa-github fa-2x"></i
+        ></a>
+        <a href="https://www.linkedin.com/"
+          ><i class="fa fa-linkedin fa-2x"></i
+        ></a>
+        <a href="https://codepen.io/HowToDuck"
+          ><i class="fa fa-codepen fa-2x"></i
+        ></a>
+      </div>
+    </div>
+  </footer>
 </html>
