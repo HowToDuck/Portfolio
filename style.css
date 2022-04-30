@@ -2,28 +2,40 @@ body {
   /* width: 100vw;
   height: 100vh;
   margin: 0; */
-  background: black;
+  /* background: black; */
 }
 .hero-image {
   width: 100vw;
   height: 100vh;
-  margin: 0;
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+
   background: url(sample.jpg) no-repeat center;
   background-attachment: fixed;
-  overflow: scroll;
   /* background-size: cover; */
-  opacity: 0.5;
+  /* opacity: 0.5; */
 }
 section {
-  display: flex;
+  /* flex: none; */
+  /* display: flex;
+  flex-direction: column; */
   justify-content: center;
   align-items: center;
-  width: 100vw;
+  width: 99vw;
   height: 100vh;
+  scroll-snap-align: start;
 }
-ul {
+.centerIt {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.9);
+  text-align: center;
+  padding: 20px;
+}
+/* ul {
   background-color: black;
-}
+} */
 li {
   color: white;
 }
