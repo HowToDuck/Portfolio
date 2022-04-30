@@ -4,6 +4,26 @@ body {
   margin: 0; */
   /* background: black; */
 }
+h1,
+h2,
+h3,
+h4,
+p {
+  font-family: "Maven Pro", sans-serif;
+  color: black;
+  text-align: center;
+}
+h1,
+h2 {
+  /* text-align: center; */
+
+  color: white;
+}
+h1 {
+  font-family: "Exo", sans-serif;
+  margin: 10px;
+  font-size: 45px;
+}
 .hero-image {
   width: 100vw;
   height: 100vh;
