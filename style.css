@@ -1,9 +1,12 @@
-/* body {
-  width: 100vw;
+@import url("https://fonts.googleapis.com/css2?family=Exo&family=Maven+Pro&family=Montserrat&family=Prosto+One&display=swap");
+body {
+  /* width: 100vw;
   height: 100vh;
   margin: 0;
-  background: black;
-} */
+  background: black; */
+  padding-top: 55px;
+  position: relative;
+}
 h1,
 h2,
 h3,
@@ -18,7 +21,8 @@ h2 {
   color: white;
 }
 h1 {
-  font-family: "Exo", sans-serif;
+  /* font-family: "Exo", sans-serif; */
+  font-family: "Exo", "sans-serif";
   margin: 10px;
   font-size: 45px;
 }
@@ -52,7 +56,17 @@ section {
   align-items: center;
   width: 99vw;
   height: 100vh;
+  /* height: fit-content; */
   scroll-snap-align: start;
+}
+.projects {
+  height: fit-content;
+}
+img {
+  width: 600px;
+  height: auto;
+  /* width: 25px; */
+  /* height: 25px; */
 }
 .centerIt {
   position: relative;
@@ -98,4 +112,22 @@ form {
 }
 #myEmail {
   background-color: rgb(138, 138, 138);
+  padding: 5px;
+  border-radius: 5px;
+}
+
+@media (max-width: 1000px) {
+  .hero-image {
+    scroll-snap-type: none;
+  }
+  section {
+    height: fit-content;
+  }
+  nav {
+    display: none;
+  }
+  .centerIt {
+    top: 0%;
+    transform: translateY(0%);
+  }
 }
